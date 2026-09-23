@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+reports/
+websec-report.json
+websec-report.html
+websec-report.sarif
+.DS_Store
+.idea/
+.vscode/

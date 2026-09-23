@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "websec"
+version = "3.1.0"
+description = "Website Upgrade Intelligence System for defensive auditing"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "tahsan2544"}]
+dependencies = []
+
+[project.scripts]
+websec = "portfolio_security_auditor.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["portfolio_security_auditor*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
